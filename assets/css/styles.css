@@ -11,10 +11,10 @@
   --sat: 63%;
   --first-color: hsl(var(--hue), var(--sat), 40%);
   --first-color-alt: hsl(var(--hue), var(--sat), 36%);
-  --title-color: hsl(var(--hue), 12%, 15%);
+  --title-color: white;
   --text-color: hsl(var(--hue), 8%, 35%);
   --body-color: hsl(var(--hue), 100%, 99%);
-  --container-color: #FFF;
+  --container-color: #000000;
 
   /*========== Font and typography ==========*/
   --body-font: 'Open Sans', sans-serif;
