@@ -69,7 +69,7 @@ $(function()
 	  setTimeout(() => {
 		const campo=document.querySelector("#campo");
 		campo.style.display="block";
-		campo.textContent="Cada vez mas viejita (>‿◠)✌";
+		campo.textContent="Cada vez mas viejita (>‿◠)";
 		console.log(campo);
 	  }, 3500);
 	}

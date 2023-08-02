@@ -1,6 +1,8 @@
 /*=============== GOOGLE FONTS ===============*/
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Sacramento");
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400&family=Tangerine:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Raleway:wght@200;300;400&display=swap');
 
 /*=============== VARIABLES CSS ===============*/
 :root {
@@ -534,10 +536,11 @@ img {
 
 .serenata{
 
- background-color: #1e19348b;
+  background-color:  #1e1934;
  width: 100%;
  height: 100vh;
  display: grid;
+ gap:15px;
  grid-template-rows: max-content;
  align-content: center;
 /* border: 2px solid green; */
@@ -547,13 +550,20 @@ gap: 15px;
   height: min-content;
   text-align: center;
   font-size: 2.5em;
-  font-weight: 100;
-  font-family: 'Sacramento';
+  font-family: 'Tangerine', cursive;
+  font-weight: 400;
   letter-spacing: .1em;
   color: white;
   text-shadow: 0 0 20px black;
   opacity: .8;
   /* border: 2px solid red; */
+}
+.letra_serenata2{
+  font-family: 'Nanum Pen Script', cursive;
+  color: white;
+  font-weight: 100;
+  letter-spacing: 2px;
+  text-align: center;
 }
 .video{
   width: 100%;
@@ -563,7 +573,7 @@ gap: 15px;
 }
 .videoserenata{
   width: 250px;
-  height: min-content;
+  height:140px;
   border-radius: 15px;
   
 }
