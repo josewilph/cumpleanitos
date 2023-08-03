@@ -635,7 +635,7 @@ gap: 15px;
   background-color: blueviolet;
   /* background-color: aliceblue; */
   /* animation: loading 5s delay iteration-count direction fill-mode;; */
-  animation: loading 26s infinite ;
+  animation: loading 36s infinite ;
 }
 
 #state-message {

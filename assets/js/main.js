@@ -355,12 +355,16 @@ window.onload = loop;
 
 // abrazoooo
 
-setTimeout(function() {
+setInterval(function() {
 	const message = document.getElementById('result');
 	message.innerHTML = "Abrazo enviado!"
-}, 26200);
-setTimeout(function() {
-	const message = document.getElementById('state-message');
-	message.innerHTML = "&nbsp;"
-}, 26000);
+	setTimeout(function(){
+    message.innerHTML="cargando..."
+	},8000);
+}, 28000);
+
+// setInterval(function() {
+// 	const message = document.getElementById('state-message');
+// 	message.innerHTML = "&nbsp;"
+// }, 26000);
 
