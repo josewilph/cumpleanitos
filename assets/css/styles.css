@@ -610,7 +610,7 @@ gap: 15px;
 /* abrazo */
 
 .abrazo{
- background: url("../img/pareja.jpg");
+ background: url("../img/pareja.jpeg");
  background-size: cover;
   width: 100vw;
   height: 100vh;
@@ -635,13 +635,14 @@ gap: 15px;
   background-color: blueviolet;
   /* background-color: aliceblue; */
   /* animation: loading 5s delay iteration-count direction fill-mode;; */
-  animation: loading 8s;
+  animation: loading 26s infinite ;
 }
 
 #state-message {
   font-family: 'Nanum Pen Script', cursive;
   font-size: 1.5rem;
   color:white;
+  
 }
 
 @keyframes loading {
@@ -652,6 +653,7 @@ gap: 15px;
       width: calc(var(--loading-width) - 5px) ;
   }
 }
+
 
 #title,
 #result {
