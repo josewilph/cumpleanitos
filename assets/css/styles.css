@@ -540,7 +540,7 @@ background-size: cover;
  width: 100%;
  height: 100vh;
  display: grid;
- gap:15px;
+ gap:25px;
  grid-template-rows: max-content;
 
 /* border: 2px solid green; */
@@ -572,6 +572,7 @@ gap: 15px;
   letter-spacing: 2px;
   text-align: center;
   animation: infinite teclear 7s steps(16);
+  margin-top: -30%;
 }
 @keyframes teclear{
   from{
@@ -583,9 +584,11 @@ gap: 15px;
 }
 .video{
   width: 100%;
+  height: fit-content;
   display: grid;
   justify-content: center;
-  /* border: 2px solid yellow; */
+  margin-top: -50%;
+  /* border: 2px solid yellow;  */
 }
 .videoserenata{
   width: 250px;
