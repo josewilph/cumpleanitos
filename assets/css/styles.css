@@ -17,6 +17,8 @@
   --text-color: hsl(var(--hue), 8%, 35%);
   --body-color: hsl(var(--hue), 100%, 99%);
   --container-color: #25023441;
+  --loading-width: 160px;
+  --loading-heigth: 23px;
 
   /*========== Font and typography ==========*/
   --body-font: 'Open Sans', sans-serif;
@@ -596,4 +598,77 @@ gap: 15px;
   border-radius: 15px;
   opacity: 0.9;
   
+}
+
+.poesiab{
+  background: url("../img/balon.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+/* abrazo */
+
+.abrazo{
+ background: url("../img/pareja.jpg");
+ background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  /* background-color: yellowgreen; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.box {
+  display: inline-block;
+  border: solid black 4px;
+  width: var(--loading-width);
+  background-color: white;
+  
+}
+
+.loading-box {
+  height: var(--loading-heigth);
+  width: calc(var(--loading-width) - 5px) ;
+  background-color: blueviolet;
+  /* background-color: aliceblue; */
+  /* animation: loading 5s delay iteration-count direction fill-mode;; */
+  animation: loading 8s;
+}
+
+#state-message {
+  font-family: 'Nanum Pen Script', cursive;
+  font-size: 1.5rem;
+  color:white;
+}
+
+@keyframes loading {
+  0% {
+      width: 0;
+  }
+  100% {
+      width: calc(var(--loading-width) - 5px) ;
+  }
+}
+
+#title,
+#result {
+  margin-top: 8px;
+  margin-bottom: 10px;
+  font-family: 'Nanum Pen Script', cursive;
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 2rem;
+    color: white;
+}
+
+#me {
+  margin-top: 8px;
+  margin-bottom: 14px;
+ 
+}
+
+.box {
+  margin-top: 3px;
 }

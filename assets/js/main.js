@@ -61,7 +61,7 @@ $(function()
 	  });
 	  $('#glow').remove();
 
-	  txt.html("Feliz <b>Cumpleaños</b><br> Peña...").delay(2750).fadeOut(300);
+	  txt.html("Feliz <b>Cumpleaños</b><br> Lidia...").delay(2750).fadeOut(300);
 	  $('#candle').animate(
 	  {
 		//'opacity': '.5'
@@ -353,5 +353,14 @@ canvas.addEventListener( 'mouseup', function( e ) {
 window.onload = loop;
 
 
-// vela
+// abrazoooo
+
+setTimeout(function() {
+	const message = document.getElementById('result');
+	message.innerHTML = "Abrazo enviado!"
+}, 6200);
+setTimeout(function() {
+	const message = document.getElementById('state-message');
+	message.innerHTML = "&nbsp;"
+}, 6000);
 
