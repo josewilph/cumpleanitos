@@ -565,6 +565,22 @@ gap: 15px;
   letter-spacing: 2px;
   text-align: center;
 }
+.letra_serenata3{
+  font-family: 'Nanum Pen Script', cursive;
+  color: white;
+  font-weight: 100;
+  letter-spacing: 2px;
+  text-align: center;
+  animation: infinite teclear 7s steps(16);
+}
+@keyframes teclear{
+  from{
+    clip-path: polygon(0 0, 0 0, 0 100%, 0% 100%);
+  }
+  to{
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  }
+}
 .video{
   width: 100%;
   display: grid;
