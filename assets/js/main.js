@@ -61,7 +61,7 @@ $(function()
 	  });
 	  $('#glow').remove();
 
-	  txt.html("Feliz <b>Cumpleaños</b><br> Lidia...").delay(2750).fadeOut(300);
+	  txt.html("Feliz <b>Cumpleaños</b><br> Nataly♡...").delay(2750).fadeOut(300);
 	  $('#candle').animate(
 	  {
 		//'opacity': '.5'
@@ -69,7 +69,7 @@ $(function()
 	  setTimeout(() => {
 		const campo=document.querySelector("#campo");
 		campo.style.display="block";
-		campo.textContent="Cada vez mas viejita (>‿◠)";
+		campo.textContent="Cada año  te haces mas bonita♡";
 		console.log(campo);
 	  }, 3500);
 	}
